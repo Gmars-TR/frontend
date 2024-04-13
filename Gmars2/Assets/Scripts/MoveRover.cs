@@ -26,19 +26,19 @@ public class MoveRover : MonoBehaviour
     {
         if (Input.GetKey("w"))
         {
-            rb.velocity += transform.right * movementMulti * Time.deltaTime;
+            rb.velocity += transform.forward * movementMulti * Time.deltaTime;
         }
         if (Input.GetKey("s"))
         {
-            rb.velocity -= transform.right * movementMulti * Time.deltaTime;
+            rb.velocity -= transform.forward * movementMulti * Time.deltaTime;
         }
         if (Input.GetKey("a"))
         {
-            rb.AddTorque(transform.forward * turnStrength);
+            rb.AddTorque(-transform.up * turnStrength);
         }
         if (Input.GetKey("d"))
         {
-            rb.AddTorque(-transform.forward * turnStrength);
+            rb.AddTorque(transform.up * turnStrength);
         }
         if (!Input.anyKey)
         {
