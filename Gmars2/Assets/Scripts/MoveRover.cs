@@ -7,6 +7,7 @@ public class MoveRover : MonoBehaviour
     [SerializeField] Transform planet;
     public float strength = 3.71f;
     public float movementMulti = 2f;
+    public float turnStrength = 0.005f;
     Camera cam;
     Rigidbody rb;
 
@@ -26,11 +27,23 @@ public class MoveRover : MonoBehaviour
         if (Input.GetKey("w"))
         {
             rb.velocity += transform.right * movementMulti * Time.deltaTime;
-            print(transform.forward);
         }
-        else
+        if (Input.GetKey("s"))
+        {
+            rb.velocity -= transform.right * movementMulti * Time.deltaTime;
+        }
+        if (Input.GetKey("a"))
+        {
+            rb.AddTorque(transform.forward * turnStrength);
+        }
+        if (Input.GetKey("d"))
+        {
+            rb.AddTorque(-transform.forward * turnStrength);
+        }
+        if (!Input.anyKey)
         {
             rb.velocity = Vector3.zero;
+            print("This is true");
         }
     }
 
