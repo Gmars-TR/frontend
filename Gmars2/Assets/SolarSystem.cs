@@ -29,7 +29,7 @@ public class SolarSystem : MonoBehaviour
             foreach(GameObject b in celestials){
                 if(!a.Equals(b)){
                     float m1 = a.GetComponent<Rigidbody>().mass;
-                    float m2 = a.GetComponent<Rigidbody>().mass;
+                    float m2 = b.GetComponent<Rigidbody>().mass;
                     float r = Vector3.Distance(a.transform.position, b.transform.position);
 
                     a.GetComponent<Rigidbody>().AddForce((b.transform.position - a.transform.position).normalized * (G * (m1 * m2)/(r*r)));
