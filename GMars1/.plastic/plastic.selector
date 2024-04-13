@@ -1,0 +1,4 @@
+repository "GMars1@Ezxpic@cloud"
+  path "/"
+    br "/main"
+    co "/main"
