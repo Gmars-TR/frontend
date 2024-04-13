@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class TriggerDetect : MonoBehaviour
 {
+    public Animator animator;
+
     void OnTriggerEnter(Collider other)
     {
-        transform.Find("Info").gameObject.SetActive(true);
+        animator.Play("Exit");
     }
 
     void OnTriggerExit(Collider other)
     {
-        transform.Find("Info").gameObject.SetActive(false);
+        animator.Play("Enter");
     }
 
 }
