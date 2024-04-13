@@ -20,7 +20,6 @@ public class readInput : MonoBehaviour
     public void readInputString(string s)
     {
         prompt = s;
-        Debug.Log("Entered prompt: " + prompt);
     }
 
 }
