@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 082b029e24860f071a3cf326311afbb1, type: 2}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0010822453, g: 0.00088269124, b: 0.0001865561, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,82 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &63117121
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2113552383}
+    m_Modifications:
+    - target: {fileID: 242881607013341801, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_Name
+      value: "Mercury\u2019s South Pole"
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.049999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.321
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1727708342458091887, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_text
+      value: "Mercury\u2019s South Pole\n\n\u2022 Temperature never rises above -93C\r\n\u2022
+        May have water ice but ONLY in deep craters that never see sunlight, so in
+        permanent shadow.\r\n\u2022 Mercury's magnetic field is not perfectly aligned
+        with its poles. Due to this, the south pole of mercury experience more pronounced
+        effect from magnetic tornadoes\r\n\u2022 Magnetic tornadoes: These tornadoes
+        tunnel hot solar wind plasma down to the surface of the planet. When the
+        ions strike the surface, they send atoms on a loop into the sky.\r\n"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+--- !u!4 &63117122 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+  m_PrefabInstance: {fileID: 63117121}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &459073643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -436,6 +512,79 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 627108335}
   smoothSpeed: 0.01
+--- !u!1001 &969987056
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2113552383}
+    m_Modifications:
+    - target: {fileID: 242881607013341801, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_Name
+      value: Nathair Facula
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.049999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.21418102
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.091002636
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8567135
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.46031177
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -124.138
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 30.309006
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 175.784
+      objectReference: {fileID: 0}
+    - target: {fileID: 1727708342458091887, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_text
+      value: "Nathair Facula\n\n\u2022 36\xB0 N, 295.5\xB0 W\r\n\u2022 Around 270km
+        wide\r\n\u2022 A region of bright spots\r\n\u2022 These spots are usually
+        due to volcanic activity, sometimes it could be due to impacts that exposed
+        fresh rock or created new surfaces that were more reflective.\r\n"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+--- !u!4 &969987057 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+  m_PrefabInstance: {fileID: 969987056}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1315008748
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,11 +685,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2113552383}
     m_Modifications:
     - target: {fileID: 242881607013341801, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
       propertyPath: m_Name
-      value: 'Olympus Mons '
+      value: General Info
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.049999997
       objectReference: {fileID: 0}
     - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -560,7 +713,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
       propertyPath: m_LocalRotation.y
@@ -582,11 +735,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1727708342458091887, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_text
+      value: "Mercury\n\n\u2022 2440km radius\r\n\u2022 Smallest planet and lightest
+        planet\r\n\u2022 Each mercury day is 58 earth days\r\n\u2022 Each mercury
+        year is 88 earth days\r\n\u2022 Varied temperature -180C to 430C, very thin
+        atmosphere\r\n\u2022 Weak magnetic field\r\n\u2022 No moons at all (one of
+        2 planets)\r\n"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+--- !u!4 &1398430614 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+  m_PrefabInstance: {fileID: 1398430613}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1471264396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,6 +1193,80 @@ Transform:
   - {fileID: 1497014844}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1832202368
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2113552383}
+    m_Modifications:
+    - target: {fileID: 242881607013341801, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_Name
+      value: "Mercury\u2019s North Pole"
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.049999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.321
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1727708342458091887, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_text
+      value: "Mercury\u2019s North Pole\n\n\u2022 Temperature at the north pole never
+        reaches above -93C, much lower than the equator, due to a very thin atmosphere
+        no heat gets trapped from the equator\r\n\u2022 There is possible water ice
+        here, particularly in the deep craters in the north pole, these craters are
+        never exposed to sunlight so are lower than -171C.\r\n"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+--- !u!4 &1832202369 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+  m_PrefabInstance: {fileID: 1832202368}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2113552381
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,7 +1310,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1398430614}
+  - {fileID: 1832202369}
+  - {fileID: 63117122}
+  - {fileID: 969987057}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
@@ -1085,4 +1329,3 @@ SceneRoots:
   - {fileID: 2113552383}
   - {fileID: 1546859201}
   - {fileID: 501264830}
-  - {fileID: 1398430613}
