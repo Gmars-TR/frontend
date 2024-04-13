@@ -324,6 +324,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: -4161369568681901532, guid: a54036aacc97e6e579cd7a0dd5720e12, type: 3}
+--- !u!4 &316627796 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3478968517500979503, guid: a54036aacc97e6e579cd7a0dd5720e12, type: 3}
+  m_PrefabInstance: {fileID: 316627795}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &400470784
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,7 +635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e28fc063719d7454fa6330bcbbe89cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planet: {fileID: 0}
+  planet: {fileID: 316627796}
   rover: {fileID: 1497014844}
   offset: 5
 --- !u!1 &685848454
@@ -1303,7 +1308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 394c3320c82d5174f91ac16a23614df9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planet: {fileID: 0}
+  planet: {fileID: 316627796}
   strength: 3.71
   movementMulti: 2
   turnStrength: 0.03
