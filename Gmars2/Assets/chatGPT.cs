@@ -3,6 +3,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Text.Json;
 using System.Text;
+using TMPro;
 using UnityEngine.UI;
 
 [System.Serializable]
@@ -44,23 +45,23 @@ public class ResponseData
 public class chatGPT : MonoBehaviour
 
 {
-    [SerializeField] GameObject resBackground;
     [SerializeField] GameObject resText;
     [SerializeField] GameObject resPrompt;
     private string apiKey = "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";
     private string endpoint = "https://api.openai.com/v1/chat/completions";
     private string fetchedPrompt;
-    public string responseString;
+    public string responseMessage;
 
 
 
 
     public async void start()
     {
-        readInput ReadInput = resPrompt.GetComponent<readInput>();
-        if (ReadInput != null)
+        gameObject.GetComponent<Button>().interactable = false;
+        readInput input = resPrompt.GetComponent<readInput>();
+        if (input != null)
         {
-            fetchedPrompt = ReadInput.prompt;
+            fetchedPrompt = input.prompt;
             Debug.Log("This is the prompt passed to OpenAI: " + fetchedPrompt);
         }
         else
@@ -69,7 +70,7 @@ public class chatGPT : MonoBehaviour
         }
         Debug.Log(fetchedPrompt);
 
-        await chatRequest(ReadInput);
+        await chatRequest(input);
         
     }
 
@@ -106,7 +107,7 @@ public class chatGPT : MonoBehaviour
                 // Access and log the content of the message
                 foreach (var choice in responseData.choices)
                 {
-                    responseString = choice.message.content;
+                    responseMessage = choice.message.content;
                     Debug.Log("Content: " + choice.message.content);
                 }
                 
@@ -125,14 +126,21 @@ public class chatGPT : MonoBehaviour
             {
                 client.Dispose();
             }
-        displayResponse();
+        await displayResponse();
     }
 
 
-    private void displayResponse()
+    private async Task displayResponse()
     {
-        Text textComponent = resText.GetComponent<Text>();
-        textComponent.text = responseString;
+        string messageDisplayed = "";
+        TextMeshProUGUI textComponent = resText.GetComponent<TextMeshProUGUI>();
+        foreach (char character in responseMessage)
+        {
+            messageDisplayed += character;
+            textComponent.text = messageDisplayed;
+            await Task.Delay(45);
+        }
+        gameObject.GetComponent<Button>().interactable = true;
     }
 
 }
