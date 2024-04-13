@@ -43,7 +43,6 @@ public class MoveRover : MonoBehaviour
         if (!Input.anyKey)
         {
             rb.velocity = Vector3.zero;
-            print("This is true");
         }
     }
 

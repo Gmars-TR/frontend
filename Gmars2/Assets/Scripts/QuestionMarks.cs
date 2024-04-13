@@ -5,6 +5,7 @@ using UnityEngine;
 public class QuestionMarks : MonoBehaviour
 {
     [SerializeField] Transform cam;
+    [SerializeField] GameObject rover;
 
     // Update is called once per frame
     void Update()
