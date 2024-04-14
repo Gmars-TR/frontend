@@ -5,10 +5,10 @@ using UnityEngine;
 public class MoveRover : MonoBehaviour
 {
     [SerializeField] Transform planet;
+    [SerializeField] ParticleSystem dirt;
     public float strength = 3.71f;
     public float movementMulti = 2.5f;
     public float turnStrength = 0.2f;
-    Camera cam;
     Rigidbody rb;
 
     void Start()
@@ -26,7 +26,18 @@ public class MoveRover : MonoBehaviour
     {
         if (Input.GetKey("w"))
         {
+            // dirt.Play();
+            // print(dirt);
+            var emission = dirt.emission;
+            emission.rateOverTime = 10f;
             rb.velocity += transform.forward * movementMulti * Time.deltaTime;
+        }
+        else
+        {
+            var emission = dirt.emission;
+            emission.rateOverTime = 0f;
+            //dirt.emission.rateOverTime = 0f;
+            print("Stopping anim");
         }
         if (Input.GetKey("s"))
         {
