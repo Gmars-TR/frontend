@@ -63,11 +63,12 @@ public class chatGPT : MonoBehaviour
     public async void StartGPT()
     {
         scrollView.SetActive(true);
+        downBtn.SetActive(false);
 
         gameObject.GetComponent<Button>().interactable = false;
         readInput input = resPrompt.GetComponent<readInput>();
 
-        if (input != null && input.ToString() != previousPrompt && input.ToString() != "")
+        if (input != null && input.ToString() != "")
         {
             fetchedPrompt = input.prompt;
             Debug.Log("This is the prompt passed to OpenAI: " + fetchedPrompt);
@@ -81,10 +82,6 @@ public class chatGPT : MonoBehaviour
             Debug.Log("The prompt given is empty\nValue null");
             gameObject.GetComponent<Button>().interactable = true;
         }
-
-
-        downBtn.SetActive(true);
-        gameObject.SetActive(false);
 
     }
 
@@ -148,6 +145,12 @@ public class chatGPT : MonoBehaviour
     {
         string messageDisplayed = "";
         TextMeshProUGUI textComponent = resText.GetComponent<TextMeshProUGUI>();
+        textComponent.text = messageDisplayed;
+
+        RectTransform rect = scrollView.GetComponent<RectTransform>();
+        rect.sizeDelta = new Vector2(rect.rect.size[0], 41f);
+        rect.position = new Vector3(rect.position[0], 128f, rect.position[2]);
+
         foreach (char character in responseMessage)
         {
             messageDisplayed += character;
@@ -155,6 +158,7 @@ public class chatGPT : MonoBehaviour
             await Task.Delay(45);
         }
         gameObject.GetComponent<Button>().interactable = true;
+        downBtn.SetActive(true);
     }
 }
 
