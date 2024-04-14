@@ -3057,6 +3057,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533070370}
     m_Modifications:
+    - target: {fileID: 2457267916150908645, guid: e0e3d015275d92c49a760281b694fc4b, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.39607847
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457267916150908645, guid: e0e3d015275d92c49a760281b694fc4b, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.47450984
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457267916150908645, guid: e0e3d015275d92c49a760281b694fc4b, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.46274513
+      objectReference: {fileID: 0}
     - target: {fileID: 5310755246075719390, guid: e0e3d015275d92c49a760281b694fc4b, type: 3}
       propertyPath: m_Name
       value: Particle System
