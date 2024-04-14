@@ -37,4 +37,8 @@ public class PlanetSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene("Neptune");
     }
+    public void LoadMenu(){
+    	SceneManager.LoadScene("MainMenu");
+    }
+    
 }
