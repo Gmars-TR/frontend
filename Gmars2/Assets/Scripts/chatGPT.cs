@@ -56,10 +56,6 @@ public class chatGPT : MonoBehaviour
     public string responseMessage;
     private string previousPrompt = "";
 
-
-
-
-
     public async void StartGPT()
     {
         scrollView.SetActive(true);

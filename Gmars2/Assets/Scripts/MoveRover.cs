@@ -26,8 +26,6 @@ public class MoveRover : MonoBehaviour
     {
         if (Input.GetKey("w"))
         {
-            // dirt.Play();
-            // print(dirt);
             var emission = dirt.emission;
             emission.rateOverTime = 10f;
             rb.velocity += transform.forward * movementMulti * Time.deltaTime;
@@ -36,8 +34,6 @@ public class MoveRover : MonoBehaviour
         {
             var emission = dirt.emission;
             emission.rateOverTime = 0f;
-            //dirt.emission.rateOverTime = 0f;
-            print("Stopping anim");
         }
         if (Input.GetKey("s"))
         {
