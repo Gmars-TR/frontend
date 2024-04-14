@@ -13,8 +13,6 @@ public class TitleAnimation : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, endPosition.position, transitionTime) * Time.deltaTime;
-        print(position.position);
-        print(endPosition.position);
+
     }
 }
