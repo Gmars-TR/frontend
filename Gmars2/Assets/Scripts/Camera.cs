@@ -7,7 +7,7 @@ public class Camera : MonoBehaviour
     [SerializeField] Transform target;
     [SerializeField] float smoothSpeed = 0.01f;
     // Start is called before the first frame update
-    void LateUpdate()
+    void FixedUpdate()
     {
         // Calculate the desired position and rotation of the camera
         Vector3 desiredPosition = target.position;
