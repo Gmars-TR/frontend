@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0011206775, g: 0.0008781821, b: 0.00021941533, a: 1}
+  m_IndirectSpecularColor: {r: 0.0010822453, g: 0.00088269124, b: 0.0001865561, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,142 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &17386215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 17386216}
+  - component: {fileID: 17386218}
+  - component: {fileID: 17386217}
+  m_Layer: 5
+  m_Name: Text (TMP) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &17386216
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17386215}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 150060941}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -333}
+  m_SizeDelta: {x: -560, y: -1354}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &17386217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17386215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u2022 The Great White Spot, also known as the Great White Oval is a massive
+    storm that appears periodically.\n\u2022 Captured an instance of this stormm
+    with the Cassini Orbiter\n\u2022 Suggested to be caused by thermal instability"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 49226fa63152c6b328d049c14df3d48d, type: 2}
+  m_sharedMaterial: {fileID: -4081966398798270661, guid: 49226fa63152c6b328d049c14df3d48d, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -181.11084, y: -313.932, z: -186.34091, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &17386218
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17386215}
+  m_CullTransparentMesh: 1
 --- !u!1001 &29852251
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -362,6 +498,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 104239620}
   m_CullTransparentMesh: 1
+--- !u!224 &150060941 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1881018021935967174, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+  m_PrefabInstance: {fileID: 824673743}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &191879810
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,6 +637,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 191879810}
   m_CullTransparentMesh: 1
+--- !u!1 &332680176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 332680177}
+  - component: {fileID: 332680179}
+  - component: {fileID: 332680178}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &332680177
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332680176}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00060055644}
+  m_LocalScale: {x: 0.30000162, y: 0.30000162, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 365585459}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0.00013738, y: -280.00024}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &332680178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332680176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 033b94cbf506c5e4a8d46c2b4f6d1ce6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &332680179
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332680176}
+  m_CullTransparentMesh: 1
 --- !u!1001 &365585457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -615,7 +831,7 @@ PrefabInstance:
       addedObject: {fileID: 1497541062}
     - targetCorrespondingSourceObject: {fileID: 1881018021935967174, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 560885600}
+      addedObject: {fileID: 332680177}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
 --- !u!4 &365585458 stripped
@@ -2024,6 +2240,137 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 692753855}
   m_CullTransparentMesh: 1
+--- !u!1001 &824673743
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2113552383}
+    m_Modifications:
+    - target: {fileID: 242881607013341801, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_Name
+      value: The Great White Spot
+      objectReference: {fileID: 0}
+    - target: {fileID: 242881607013341801, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.049999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.050000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.050000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.069
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.591
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.972
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.46848753
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.20598036
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.12953484
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.849301
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -178.451
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 208.127
+      objectReference: {fileID: 0}
+    - target: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -58.152008
+      objectReference: {fileID: 0}
+    - target: {fileID: 1727708342458091887, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_text
+      value: 'The Great White Spot
+
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1727708342458091887, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_fontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1727708342458091887, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3728f394df52752e3ad596a0dbd83187, type: 2}
+    - target: {fileID: 1727708342458091887, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_fontStyle
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1727708342458091887, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1727708342458091887, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3337925715894497265, guid: 3728f394df52752e3ad596a0dbd83187, type: 2}
+    - target: {fileID: 1727708342458091887, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387110332602626178, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_Size.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387110332602626178, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_Size.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387110332602626178, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_Size.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811781518271058356, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -650
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811781518271058356, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -225
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1881018021935967174, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 17386216}
+    - targetCorrespondingSourceObject: {fileID: 1881018021935967174, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1972755285}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
 --- !u!1 &832435774
 GameObject:
   m_ObjectHideFlags: 0
@@ -2906,6 +3253,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 398819464}
     m_Modifications:
+    - target: {fileID: 571009142302276515, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2997404862759193867, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1280
@@ -2949,6 +3300,30 @@ PrefabInstance:
     - target: {fileID: 3007300890118791325, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
       propertyPath: m_Name
       value: ChatGPT
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348899087345531939, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348899087345531939, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348899087345531939, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177089588182175797, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177089588182175797, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177089588182175797, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3421,7 +3796,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u2022 Does not have a hexagon like north pole but does have vortexes."
+  m_text: "\u2022 Does not have a hexagon like north pole but does have vortexes\n\u2022Surrounding
+    Saturn's south pole is a mysterious blue haze and scientists believe it's created
+    by sunlight breaking down gases in Saturn's atmosphere."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49226fa63152c6b328d049c14df3d48d, type: 2}
   m_sharedMaterial: {fileID: -4081966398798270661, guid: 49226fa63152c6b328d049c14df3d48d, type: 2}
@@ -3775,7 +4152,8 @@ MonoBehaviour:
   m_text: "\u2022 Saturn's Hexagon\n\u2022 Although the exact reason is still unknown,
     Scientists hypothesise that it is a result of Saturn's atmospheric dynamics,
     specifically the interaction between its winds and the rotation of the planet.
-    (wiki)"
+    (wiki)\n\u2022  Saturn's north pole, like its south pole, also experiences auroras,
+    also known as the northern lights. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49226fa63152c6b328d049c14df3d48d, type: 2}
   m_sharedMaterial: {fileID: -4081966398798270661, guid: 49226fa63152c6b328d049c14df3d48d, type: 2}
@@ -4056,6 +4434,86 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: -8, y: -5, z: -8, w: -5}
   m_Softness: {x: 0, y: 0}
+--- !u!4 &1965108118 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+  m_PrefabInstance: {fileID: 824673743}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1972755284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1972755285}
+  - component: {fileID: 1972755287}
+  - component: {fileID: 1972755286}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1972755285
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972755284}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 150060941}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -269}
+  m_SizeDelta: {x: 1024, y: 889}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1972755286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972755284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6b6a031a6f0a97443aac6d85005b2777, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1972755287
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972755284}
+  m_CullTransparentMesh: 1
 --- !u!224 &1985791711 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2738153965699714565, guid: 81e6729916e8016478e41a513489467b, type: 3}
@@ -4113,6 +4571,7 @@ Transform:
   - {fileID: 1249109359}
   - {fileID: 365585458}
   - {fileID: 1356271653}
+  - {fileID: 1965108118}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
