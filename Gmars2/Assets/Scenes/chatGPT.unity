@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!224 &514830363 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 676907162561844248, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-  m_PrefabInstance: {fileID: 5750352795283342409}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &588883868
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,17 +225,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &630839696 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7938597551632178796, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-  m_PrefabInstance: {fileID: 5750352795283342409}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &779577181
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,31 +479,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1760994162 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8869087070146426871, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-  m_PrefabInstance: {fileID: 5750352795283342409}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &1760994163 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 4348899087345531939, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-  m_PrefabInstance: {fileID: 5750352795283342409}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1760994167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760994162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c87c00b5c48fa04297fbc4bb17d5fe6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 630839696}
-  container: {fileID: 1760994163}
-  expandingBox: {fileID: 514830363}
 --- !u!4 &5097287161278603728 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5493527443384385624, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
@@ -535,34 +494,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 571009142302276515, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 676907162561844248, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 479.8279
-      objectReference: {fileID: 0}
-    - target: {fileID: 676907162561844248, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 676907162561844248, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 1633266393488125257, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4348899087345531939, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4348899087345531939, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4348899087345531939, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-      propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5493527443384385624, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
@@ -605,26 +536,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7938597551632178796, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-      propertyPath: m_text
-      value: Not overflow
-      objectReference: {fileID: 0}
-    - target: {fileID: 7938597551632178796, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-      propertyPath: m_fontSize
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 7938597551632178796, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-      propertyPath: m_overflowMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7938597551632178796, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-      propertyPath: m_enableAutoSizing
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7938597551632178796, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 1024
-      objectReference: {fileID: 0}
     - target: {fileID: 8480867159160888886, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
       propertyPath: m_Name
       value: ChatGPT
@@ -644,10 +555,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8869087070146426871, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1760994167}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

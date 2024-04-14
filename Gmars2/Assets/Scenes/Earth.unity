@@ -874,6 +874,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 375977633}
     m_Modifications:
+    - target: {fileID: 571009142302276515, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2997404862759193867, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1280
@@ -917,6 +921,22 @@ PrefabInstance:
     - target: {fileID: 3007300890118791325, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
       propertyPath: m_Name
       value: ChatGPT
+      objectReference: {fileID: 0}
+    - target: {fileID: 7938597551632178796, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
+      propertyPath: m_text
+      value: Hello! How can I help you today?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177089588182175797, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177089588182175797, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177089588182175797, guid: 64eaef452309ade46b436d6fce6966a6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
