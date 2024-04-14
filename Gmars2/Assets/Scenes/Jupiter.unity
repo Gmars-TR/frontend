@@ -316,19 +316,32 @@ PrefabInstance:
       value: "The Great Red Spot\r\n\n\u2022 The Great Red Spot is a giant, spinning
         storm in Jupiter's atmosphere.\n\u2022 It is like a hurricane on Earth, but
         it is much larger. Jupiter's Great Red Spot is more than twice the size of
-        Earth!\n\u2022 Winds inside this storm reach speeds of about 270 miles per
-        hour.\n\u2022 Nobody knows when the Great Red Spot first appeared on Jupiter.\n\u2022
-        It has been seen on Jupiter ever since people started looking through telescopes
-        about 400 years ago. "
+        Earth!\n\u2022 Nobody knows when the Great Red Spot first appeared on Jupiter.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811781518271058356, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -700
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811781518271058356, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -250
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1881018021935967174, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 1874942754}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
 --- !u!4 &253359082 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+  m_PrefabInstance: {fileID: 253359081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &253359083 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1881018021935967174, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
   m_PrefabInstance: {fileID: 253359081}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &283649180
@@ -821,17 +834,32 @@ PrefabInstance:
         in this region ranges from \u221283 \xB0C to \u221213 \xB0C\r\n\u2022 At
         the North Pole of Jupiter, there is a large X-ray spot, discovered in 2000,
         pulsating with a period of about 45 minutes; there is a much smaller similar
-        spot at the South Pole.\n\u2022 Explanations of this phenomenon have not
-        yet been found. (wikipedia)\r"
+        spot at the South Pole.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811781518271058356, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -700
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811781518271058356, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -250
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1881018021935967174, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 1117292535}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
 --- !u!4 &883239101 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+  m_PrefabInstance: {fileID: 883239100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &883239102 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1881018021935967174, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
   m_PrefabInstance: {fileID: 883239100}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1018151787
@@ -1037,6 +1065,81 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1117292534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1117292535}
+  - component: {fileID: 1117292537}
+  - component: {fileID: 1117292536}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1117292535
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117292534}
+  m_LocalRotation: {x: -0, y: -0.000000029802326, z: -0.000000037252907, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 883239102}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 350}
+  m_SizeDelta: {x: -200, y: -900}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1117292536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117292534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f6ef1aca2a48ddc4bb196ec030fb0299, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1117292537
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117292534}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1249109358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1099,14 +1202,30 @@ PrefabInstance:
         Jupiter is 11 times wider than Earth.\n\u2022 If Earth were the size of a
         grape, Jupiter would be about as big as a basketball.\r\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 5811781518271058356, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -700
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811781518271058356, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -250
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1881018021935967174, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 1909225669}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
 --- !u!4 &1249109359 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+  m_PrefabInstance: {fileID: 1249109358}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1249109360 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1881018021935967174, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
   m_PrefabInstance: {fileID: 1249109358}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1315008748
@@ -1854,6 +1973,156 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1874942753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1874942754}
+  - component: {fileID: 1874942756}
+  - component: {fileID: 1874942755}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1874942754
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874942753}
+  m_LocalRotation: {x: -0, y: -0.000000029802322, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 253359083}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 350}
+  m_SizeDelta: {x: -200, y: -900}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1874942755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874942753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 65c812e623bc82e40a62e7007cbf6590, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1874942756
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874942753}
+  m_CullTransparentMesh: 1
+--- !u!1 &1909225668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1909225669}
+  - component: {fileID: 1909225671}
+  - component: {fileID: 1909225670}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1909225669
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909225668}
+  m_LocalRotation: {x: -0, y: -0.000000029802326, z: -0.000000037252907, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1249109360}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 350}
+  m_SizeDelta: {x: -200, y: -900}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1909225670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909225668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3cd8a51bc6e803e4eab524dbf89af847, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1909225671
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909225668}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1914213869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1915,14 +2184,30 @@ PrefabInstance:
       value: "The Great Blue Spot\n\n\u2022 Jupiter's second south pole. Located
         near the equator, this makes an unexpected north-south asymmetry pattern"
       objectReference: {fileID: 0}
+    - target: {fileID: 5811781518271058356, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -700
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811781518271058356, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -250
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1881018021935967174, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 2102751754}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
 --- !u!4 &1914213870 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 566043900091992334, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
+  m_PrefabInstance: {fileID: 1914213869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1914213871 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1881018021935967174, guid: 8c5a99b3ddba33b478201d64219ab1c0, type: 3}
   m_PrefabInstance: {fileID: 1914213869}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1940081269 stripped
@@ -2061,6 +2346,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962814612}
+  m_CullTransparentMesh: 1
+--- !u!1 &2102751753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2102751754}
+  - component: {fileID: 2102751756}
+  - component: {fileID: 2102751755}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2102751754
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102751753}
+  m_LocalRotation: {x: -0.000000029802322, y: -0.000000029802322, z: -0.000000059604645, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1914213871}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 350}
+  m_SizeDelta: {x: -200, y: -900}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2102751755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102751753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4d19a4868ab18d34eae88b42e676fdc8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2102751756
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102751753}
   m_CullTransparentMesh: 1
 --- !u!1 &2113552381
 GameObject:
