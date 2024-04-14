@@ -47,7 +47,7 @@ public class chatGPT : MonoBehaviour
 {
 
     [SerializeField] GameObject resText;
-    [SerializeField] GameObject resPrompt;	
+    [SerializeField] GameObject resPrompt;
     [SerializeField] GameObject scrollView;
     [SerializeField] GameObject downBtn;
     private string apiKey = "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";
@@ -62,11 +62,11 @@ public class chatGPT : MonoBehaviour
 
     public async void StartGPT()
     {
-    	scrollView.SetActive(true);
-    	
+        scrollView.SetActive(true);
+
         gameObject.GetComponent<Button>().interactable = false;
         readInput input = resPrompt.GetComponent<readInput>();
-        
+
         if (input != null && input.ToString() != previousPrompt && input.ToString() != "")
         {
             fetchedPrompt = input.prompt;
@@ -79,9 +79,10 @@ public class chatGPT : MonoBehaviour
         else
         {
             Debug.Log("The prompt given is empty\nValue null");
+            gameObject.GetComponent<Button>().interactable = true;
         }
-       
-        
+
+
         downBtn.SetActive(true);
         gameObject.SetActive(false);
 
@@ -155,6 +156,6 @@ public class chatGPT : MonoBehaviour
         }
         gameObject.GetComponent<Button>().interactable = true;
     }
-   }
-	
- 
+}
+
+
