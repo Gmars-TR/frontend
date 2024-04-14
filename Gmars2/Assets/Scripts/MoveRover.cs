@@ -6,8 +6,8 @@ public class MoveRover : MonoBehaviour
 {
     [SerializeField] Transform planet;
     public float strength = 3.71f;
-    public float movementMulti = 2f;
-    public float turnStrength = 0.005f;
+    public float movementMulti = 2.5f;
+    public float turnStrength = 0.2f;
     Camera cam;
     Rigidbody rb;
 
@@ -49,6 +49,10 @@ public class MoveRover : MonoBehaviour
     void Update()
     {
         Attract();
+    }
+
+    void FixedUpdate()
+    {
         Move();
     }
 

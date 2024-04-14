@@ -1553,8 +1553,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planet: {fileID: 1940081269}
   strength: 3.71
-  movementMulti: 2
-  turnStrength: 0.03
+  movementMulti: 2.5
+  turnStrength: 0.2
 --- !u!65 &1497014846
 BoxCollider:
   m_ObjectHideFlags: 0
