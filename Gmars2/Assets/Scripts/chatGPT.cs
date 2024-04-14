@@ -45,32 +45,45 @@ public class ResponseData
 public class chatGPT : MonoBehaviour
 
 {
+
     [SerializeField] GameObject resText;
-    [SerializeField] GameObject resPrompt;
+    [SerializeField] GameObject resPrompt;	
+    [SerializeField] GameObject scrollView;
+    [SerializeField] GameObject downBtn;
     private string apiKey = "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";
     private string endpoint = "https://api.openai.com/v1/chat/completions";
     private string fetchedPrompt;
     public string responseMessage;
+    private string previousPrompt = "";
+
 
 
 
 
     public async void StartGPT()
     {
+    	scrollView.SetActive(true);
+    	
         gameObject.GetComponent<Button>().interactable = false;
         readInput input = resPrompt.GetComponent<readInput>();
-        if (input != null)
+        
+        if (input != null && input.ToString() != previousPrompt && input.ToString() != "")
         {
             fetchedPrompt = input.prompt;
             Debug.Log("This is the prompt passed to OpenAI: " + fetchedPrompt);
+            previousPrompt = input.ToString();
+            Debug.Log(fetchedPrompt);
+
+            await chatRequest(input);
         }
         else
         {
-            Debug.LogError("The prompt given is empty\nValue null");
+            Debug.Log("The prompt given is empty\nValue null");
         }
-        Debug.Log(fetchedPrompt);
-
-        await chatRequest(input);
+       
+        
+        downBtn.SetActive(true);
+        gameObject.SetActive(false);
 
     }
 
@@ -142,5 +155,6 @@ public class chatGPT : MonoBehaviour
         }
         gameObject.GetComponent<Button>().interactable = true;
     }
-
-}
+   }
+	
+ 
