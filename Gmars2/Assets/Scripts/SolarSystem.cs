@@ -109,6 +109,6 @@ public class SolarSystem : MonoBehaviour
     // Function to load a new scene
     public void LoadNewScene()
     {
-        SceneManager.LoadScene("Assets/Scenes/Mars.unity");
+        SceneManager.LoadScene("Assets/Scenes/Earth.unity");
     }
 }
