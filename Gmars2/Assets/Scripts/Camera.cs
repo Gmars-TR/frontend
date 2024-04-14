@@ -5,7 +5,7 @@ using UnityEngine;
 public class Camera : MonoBehaviour
 {
     [SerializeField] Transform target;
-    [SerializeField] float smoothSpeed = 0.01f;
+    [SerializeField] float smoothSpeed = 0.1f;
     // Start is called before the first frame update
     void FixedUpdate()
     {
