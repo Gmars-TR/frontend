@@ -484,7 +484,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hello! How can I help you today?
+  m_text: 'Mission Control: Online'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 04c606e47615ac7058594ff1413684f9, type: 2}
   m_sharedMaterial: {fileID: 7483434798601001120, guid: 04c606e47615ac7058594ff1413684f9, type: 2}
@@ -547,7 +547,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 20, y: 10, z: 10, w: 10}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1106,7 +1106,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2016745244856191279}
   m_HandleRect: {fileID: 9177089588182175797}
   m_Direction: 2
-  m_Value: 0.9999992
+  m_Value: 1.0000004
   m_Size: 0
   m_NumberOfSteps: 0
   m_OnValueChanged:
