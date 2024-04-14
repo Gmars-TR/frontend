@@ -826,6 +826,18 @@ PrefabInstance:
       propertyPath: m_text
       value: Jupiter
       objectReference: {fileID: 0}
+    - target: {fileID: 2909288524424124055, guid: 81e6729916e8016478e41a513489467b, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3728f394df52752e3ad596a0dbd83187, type: 2}
+    - target: {fileID: 2909288524424124055, guid: 81e6729916e8016478e41a513489467b, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3337925715894497265, guid: 3728f394df52752e3ad596a0dbd83187, type: 2}
+    - target: {fileID: 2909288524424124055, guid: 81e6729916e8016478e41a513489467b, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
