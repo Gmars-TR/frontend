@@ -463,7 +463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2738153965699714565, guid: 81e6729916e8016478e41a513489467b, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 2738153965699714565, guid: 81e6729916e8016478e41a513489467b, type: 3}
       propertyPath: m_SizeDelta.y
@@ -503,7 +503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2738153965699714565, guid: 81e6729916e8016478e41a513489467b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -20
+      value: -1035
       objectReference: {fileID: 0}
     - target: {fileID: 2738153965699714565, guid: 81e6729916e8016478e41a513489467b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -529,6 +529,10 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -3337925715894497265, guid: 3728f394df52752e3ad596a0dbd83187, type: 2}
+    - target: {fileID: 2909288524424124055, guid: 81e6729916e8016478e41a513489467b, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 16777215
+      objectReference: {fileID: 0}
     - target: {fileID: 2909288524424124055, guid: 81e6729916e8016478e41a513489467b, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
