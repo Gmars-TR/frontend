@@ -100,7 +100,7 @@ public class chatGPT : MonoBehaviour
                 $"\"role\": \"system\"," +
                 $"\"content\": \"{fetchedPrompt}\"" +
                 "}]," +
-                "\"max_tokens\": 50" +
+                "\"max_tokens\": 100" +
                 "}";
 
             StringContent stringContent = new StringContent(jsonContent, Encoding.UTF8, "application/json");
